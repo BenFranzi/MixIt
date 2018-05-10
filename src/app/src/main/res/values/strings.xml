@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MixIt</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Main Activity-->
+    <string name="main_register_bt">Register</string>
+    <string name="main_login_bt">Login</string>
+    <string name="main_tagline_tv">If you have it you can Mixit.</string>
+    <string name="title_activity_home">HomeActivity</string>
+
 </resources>
