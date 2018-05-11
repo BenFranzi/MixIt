@@ -1,11 +1,21 @@
 <resources>
     <string name="app_name">MixIt</string>
-    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_main">MixIt</string>
 
     <!-- Main Activity-->
     <string name="main_register_bt">Register</string>
     <string name="main_login_bt">Login</string>
     <string name="main_tagline_tv">If you have it you can Mixit.</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="email_signin">Sign in with your Email</string>
+    <string name="google_signin">Sign in with Google</string>
+    <string name="facebook_signin">Sign in with Facebook</string>
+    <string name="twitter_signin">Sign in with Twitter</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
 
 </resources>
