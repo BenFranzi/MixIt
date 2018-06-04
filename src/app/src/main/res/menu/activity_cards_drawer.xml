@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_random"
+            android:icon="@drawable/ic_casino_black_24dp"
+            android:title="@string/nav_random" />
+
+        <item
+            android:id="@+id/nav_favourites"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="@string/nav_favourites"
+            android:iconTint="@color/black"
+            />
+
+    <item android:title="@string/nav_filter">
+        <menu>
+            <item
+                android:id="@+id/nav_item_vodka"
+                android:title="@string/nav_item_vodka" />
+            <item
+                android:id="@+id/nav_item_gin"
+                android:title="@string/nav_item_gin" />
+            <item
+                android:id="@+id/nav_item_whiskey"
+                android:title="@string/nav_item_whiskey" />
+            <item
+                android:id="@+id/nav_item_rum"
+                android:title="@string/nav_item_rum" />
+            <item
+                android:id="@+id/nav_item_tequila"
+                android:title="@string/nav_item_tequila" />
+        </menu>
+    </item>
+
+</menu>

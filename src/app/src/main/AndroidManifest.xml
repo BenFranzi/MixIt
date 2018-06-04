@@ -3,7 +3,12 @@
     package="com.benfranzi.mixit">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
 
     <application
         android:allowBackup="true"
@@ -13,9 +18,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"
+            android:name=".login.LoginActivity"
             android:label="@string/title_activity_main"
-            android:noHistory="true"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,11 +27,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SigninEmailActivity" />
         <activity
-            android:name=".HomeActivity"
-            android:label="@string/title_activity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:name=".cards.CardsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".drink.DrinkActivity"
+            android:label="@string/title_activity_drink"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".favourite.FavouriteActivity"></activity>
+        <receiver android:process=":remote" android:name=".services.AlarmReceiver"></receiver>
     </application>
 
 </manifest>
