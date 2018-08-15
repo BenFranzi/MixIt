@@ -1,2 +1,2 @@
 # MixIt
-Project for MAD
+A cocktail recipe application built on Firebase
